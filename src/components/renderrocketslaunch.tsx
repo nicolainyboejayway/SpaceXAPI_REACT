@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import styled from "styled-components";
 import MissionForm from "./MissionForm";
@@ -71,8 +71,6 @@ export default function RenderRocketsLaunch() {
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error...</p>;
-
-  console.log(data);
 
   return (
     <MainDiv>

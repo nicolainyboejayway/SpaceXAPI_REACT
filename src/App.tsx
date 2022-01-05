@@ -1,12 +1,6 @@
 import React from "react";
-import "./App.css";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  useQuery,
-  gql,
-} from "@apollo/client";
+
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 import RenderRocketsLaunch from "./components/renderrocketslaunch";
 
